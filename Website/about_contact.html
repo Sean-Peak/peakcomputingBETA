@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Peak Computing - Repairs & Sales</title>
+		<link rel="stylesheet" href="http://www.w3schools.com/lib/w3.css">
+		<script>
+		var slideIndex = 0;
+		carousel();
+
+		function carousel() {
+			var i;
+			var x = document.getElementsByClassName("mySlides");
+			for (i = 0; i < x.length; i++) {
+			  x[i].style.display = "none";
+			}
+			slideIndex++;
+			if (slideIndex > x.length) {slideIndex = 1}
+			x[slideIndex-1].style.display = "block";
+			setTimeout(carousel, 2000); // Change image every 2 seconds
+		}
+		</script>
+	</head>
+	<body>
+		<div class="w3-container w3-blue">
+			<img src="images/log.png" style="float:	left; width:	125px; height:	125px">
+			<h1>Peak Computing</h1>
+			<h3>Repairs & Sales</h3>
+		</div>
+		<ul class="w3-navbar w3-blue">
+			<li><a href="/index.html" class="w3-hover-white">Home</a></li>
+			<li><a href="/build_repair.html" class="w3-hover-white">Builds & Repairs</a></li>
+			<li><a href="/about_contact.html" class="w3-hover-white">About and Contact</a></li>
+			<li><a href="/links.html" class="w3-hover-white">Our Links</a></li>
+		</ul>
+		<div class="w3-container w3-white">
+			<h2><u><b>About and Contact</b></u></h2>
+			<br>
+			<h5>About</h5>
+			<p>We are a group of young local aspiring computer experts who are trying to break into the local markets with our unique and competitively priced products and services. We offer a wide range of services from builidng PCs, repairs and maintenence, all the way through to education.</p>
+			<br>
+			<h5>Contact</h5>
+			<p><b>Email:</b> peakcomputingnz@gmail.com
+			<p><b>Business Enquiries:</b> ceo.peakcomputingnz@gmail.com</p>
+			<p><b>Phone:</b> 0272879904 (Carterton/Greytown), 0275555427 (Featherston/Martinborough)</p>
+		</div>
+	</body>
+</html>

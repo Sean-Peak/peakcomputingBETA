@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Peak Computing - Repairs & Sales</title>
+		<link rel="stylesheet" href="http://www.w3schools.com/lib/w3.css">
+		<script>
+		var slideIndex = 0;
+		carousel();
+
+		function carousel() {
+			var i;
+			var x = document.getElementsByClassName("mySlides");
+			for (i = 0; i < x.length; i++) {
+			  x[i].style.display = "none";
+			}
+			slideIndex++;
+			if (slideIndex > x.length) {slideIndex = 1}
+			x[slideIndex-1].style.display = "block";
+			setTimeout(carousel, 2000); // Change image every 2 seconds
+		}
+		</script>
+	</head>
+	<body>
+		<div class="w3-container w3-blue">
+			<img src="images/log.png" style="float:	left; width:	125px; height:	125px">
+			<h1>Peak Computing</h1>
+			<h3>Repairs & Sales</h3>
+		</div>
+		<ul class="w3-navbar w3-blue">
+			<li><a href="/index.html" class="w3-hover-white">Home</a></li>
+			<li><a href="/build_repair.html" class="w3-hover-white">Builds & Repairs</a></li>
+			<li><a href="/about_contact.html" class="w3-hover-white">About and Contact</a></li>
+			<li><a href="/links.html" class="w3-hover-white">Our Links</a></li>
+		</ul>
+		<div class="w3-container w3-white">
+			<h2><u><b>Links</b></u></h2>
+			<h5>Updated: November 12, 2016</h5>
+			<p>Below are various links to which you can view more of our content...</p>
+		</div>
+			<div class="w3-container w3-grey">
+			<div style="padding:	7px">
+				<div class="w3-third" style="padding-bottom:	7px;">
+					<div class="w3-card-2">
+						<a href="https://www.patreon.com/PCPlaceNZ"><img src="images/patreon.png" style="width:100%"></a>
+							<div class="w3-container">
+								<h4>This is our Patreon link, where you can contribute to us and fund our YouTube channel and store efforts.</h4>
+							</div>
+					</div>
+				</div>
+				<div class="w3-third" style="padding-bottom:	7px;">
+					<div class="w3-card-2">
+						<a href="https://www.youtube.com/channel/UCf5ZTSZAKbinY03jOwylfOg"><img src="images/yt.png" style="width:100%"></a>
+							<div class="w3-container">
+								<h4>View us on YouTube, where we have links to educational videos, tutorials, and more...</h4>
+							</div>
+					</div>
+				</div> 
+				<div class="w3-third" style="padding-bottom:	7px;">
+					<div class="w3-card-2">
+						<a href="about_contact.html"><img src="images/arrow.jpg" style="width:100%"></a>
+							<div class="w3-container">
+								<h4>Contact details are here for any of your technical needs or inquiries</h4>
+					</div>
+				</div> 
+				</div>
+		</div>
+	</body>
+</html>
